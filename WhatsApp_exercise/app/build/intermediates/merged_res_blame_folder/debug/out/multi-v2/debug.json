@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/entel/StudioProjects/WhatsApp_exercise/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,16,9,13,5,10,7,6,11,14,8,17,18,12,4",
+                        "startColumns": "-1,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "-1,622,333,535,165,374,251,205,424,583,289,676,722,480,103",
+                        "endColumns": "-1,53,40,47,39,49,37,45,55,37,43,45,45,54,61",
+                        "endOffsets": "-1,671,369,578,200,419,284,246,475,616,328,717,763,530,160"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "255,302,356,397,445,485,535,573,619,675,713,757,803,849,904",
+                        "endColumns": "46,53,40,47,39,49,37,45,55,37,43,45,45,54,61",
+                        "endOffsets": "297,351,392,440,480,530,568,614,670,708,752,798,844,899,961"
+                    }
+                },
+                {
+                    "source": "/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,95,134,174,215",
+                        "endColumns": "39,38,39,40,39",
+                        "endOffsets": "90,129,169,210,250"
+                    }
+                }
+            ]
+        }
+    ]
+}

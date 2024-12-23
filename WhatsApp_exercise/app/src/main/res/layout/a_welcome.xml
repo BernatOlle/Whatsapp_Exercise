@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/welcome"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/background_picture">
+
+    <TextView
+        android:id="@+id/welcomeMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:focusable="true"
+        android:text="@string/whatsapp_app"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/welcomeLogoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeMessageTextView"
+        android:layout_marginStart="20dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:id="@+id/welcomeLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/welcomeLoginButton"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/login_uppercase"
+            android:textColor="@color/orange"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/welcomeRegisterButton"
+            style="@android:style/Widget.DeviceDefault.MediaRouteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/register_uppercase"
+            android:textColor="@color/orange"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

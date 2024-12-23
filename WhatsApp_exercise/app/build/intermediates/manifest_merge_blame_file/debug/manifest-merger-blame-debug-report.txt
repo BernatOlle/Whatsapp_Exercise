@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.upc.whatsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:7:6-9:40
+8        android:maxSdkVersion="17"
+8-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:9:11-37
+9        android:minSdkVersion="17"
+9-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:7:16-42
+10        android:targetSdkVersion="17" />
+10-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:8:11-40
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:11:5-67
+12-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:11:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:12:5-80
+13-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:14:5-78
+14-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:14:22-76
+15
+16    <application
+16-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:16:5-49:19
+17        android:name="edu.upc.whatsapp._GlobalState"
+17-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:16:18-46
+18        android:debuggable="true"
+19        android:hardwareAccelerated="true"
+19-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:18:18-52
+20        android:label="@string/app_name"
+20-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:17:18-50
+21        android:testOnly="true"
+22        android:theme="@android:style/Theme.Light" >
+22-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:19:18-60
+23        <activity
+23-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:21:9-27:20
+24            android:name="edu.upc.whatsapp.a_WelcomeActivity"
+24-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:21:19-52
+25            android:label="@string/app_name" >
+25-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:22:19-51
+26            <intent-filter>
+26-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:23:13-26:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:24:17-69
+27-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:24:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:25:17-77
+29-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:25:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:29:9-33:20
+33            android:name="edu.upc.whatsapp.b_LoginActivity"
+33-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:29:19-49
+34            android:label="Login Form"
+34-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:32:19-45
+35            android:screenOrientation="portrait"
+35-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:30:19-55
+36            android:theme="@android:style/Theme.Dialog" >
+36-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:31:19-62
+37        </activity>
+38        <activity
+38-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:34:9-38:20
+39            android:name="edu.upc.whatsapp.c_RegistrationActivity"
+39-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:34:19-56
+40            android:label="Sign up Form"
+40-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:36:19-47
+41            android:screenOrientation="portrait"
+41-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:35:19-55
+42            android:windowSoftInputMode="stateHidden" >
+42-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:37:19-60
+43        </activity>
+44        <activity
+44-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:39:9-41:20
+45            android:name="edu.upc.whatsapp.d_UsersListActivity"
+45-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:39:19-53
+46            android:label="Users List" >
+46-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:40:19-45
+47        </activity>
+48        <activity
+48-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:42:9-45:20
+49            android:name="edu.upc.whatsapp.e_MessagesActivity"
+49-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:42:19-53
+50            android:label="Messages"
+50-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:43:19-43
+51            android:windowSoftInputMode="stateHidden" >
+51-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:44:19-60
+52        </activity>
+53
+54        <service android:name="edu.upc.whatsapp.service.PushService" />
+54-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:47:9-56
+54-->/home/entel/StudioProjects/WhatsApp_exercise/app/src/main/AndroidManifest.xml:47:18-53
+55    </application>
+56
+57</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/background_picture">
+
+
+    <TextView
+        android:id="@+id/b_login_LoginTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/login"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/b_login_LoginET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_login_LoginTV"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/b_login_PasswordTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_login_LoginET"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/password"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/b_login_PasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_login_PasswordTV"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/editloginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_login_PasswordET"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/login_uppercase"
+        android:textColor="@color/orange"
+        tools:layout_below="@id/b_login_PasswordET" />
+
+</RelativeLayout>
+

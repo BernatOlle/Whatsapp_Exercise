@@ -1,0 +1,66 @@
+edu/upc/whatsapp/comms/DateSerializerDeserializer.java
+ edu.upc.whatsapp.comms.DateSerializerDeserializer
+edu/upc/whatsapp/b_LoginActivity.java
+ edu.upc.whatsapp.b_LoginActivity
+ edu.upc.whatsapp.b_LoginActivity$1
+ edu.upc.whatsapp.b_LoginActivity$OperationPerformer
+edu/upc/whatsapp/c_RegistrationActivity.java
+ edu.upc.whatsapp.c_RegistrationActivity
+ edu.upc.whatsapp.c_RegistrationActivity$1
+ edu.upc.whatsapp.c_RegistrationActivity$OperationPerformer
+edu/upc/whatsapp/e_MessagesActivity.java
+ edu.upc.whatsapp.e_MessagesActivity
+ edu.upc.whatsapp.e_MessagesActivity$1
+ edu.upc.whatsapp.e_MessagesActivity$2
+ edu.upc.whatsapp.e_MessagesActivity$3
+ edu.upc.whatsapp.e_MessagesActivity$3$1
+ edu.upc.whatsapp.e_MessagesActivity$SendMessage_Task
+ edu.upc.whatsapp.e_MessagesActivity$fetchAllMessages_Task
+ edu.upc.whatsapp.e_MessagesActivity$fetchNewMessagesTimerTask
+ edu.upc.whatsapp.e_MessagesActivity$fetchNewMessages_Task
+edu/upc/whatsapp/e_MessagesActivity_websocket.java
+ edu.upc.whatsapp.e_MessagesActivity_websocket
+ edu.upc.whatsapp.e_MessagesActivity_websocket$1
+ edu.upc.whatsapp.e_MessagesActivity_websocket$2
+ edu.upc.whatsapp.e_MessagesActivity_websocket$3
+ edu.upc.whatsapp.e_MessagesActivity_websocket$4
+ edu.upc.whatsapp.e_MessagesActivity_websocket$5
+ edu.upc.whatsapp.e_MessagesActivity_websocket$6
+ edu.upc.whatsapp.e_MessagesActivity_websocket$6$1
+ edu.upc.whatsapp.e_MessagesActivity_websocket$MyEndPoint
+ edu.upc.whatsapp.e_MessagesActivity_websocket$MyEndPoint$1
+ edu.upc.whatsapp.e_MessagesActivity_websocket$SendMessage_Task
+ edu.upc.whatsapp.e_MessagesActivity_websocket$fetchAllMessages_Task
+ edu.upc.whatsapp.e_MessagesActivity_websocket$fetchNewMessages_Task
+edu/upc/whatsapp/comms/RPC.java
+ edu.upc.whatsapp.comms.RPC
+entity/User.java
+ entity.User
+edu/upc/whatsapp/_GlobalState.java
+ edu.upc.whatsapp._GlobalState
+edu/upc/whatsapp/comms/Comms.java
+ edu.upc.whatsapp.comms.Comms
+edu/upc/whatsapp/BuildConfig.java
+ edu.upc.whatsapp.BuildConfig
+edu/upc/whatsapp/adapter/MyAdapter_messages.java
+ edu.upc.whatsapp.adapter.MyAdapter_messages
+edu/upc/whatsapp/a_WelcomeActivity.java
+ edu.upc.whatsapp.a_WelcomeActivity
+entity/UserInfo.java
+ entity.UserInfo
+entity/Message.java
+ entity.Message
+edu/upc/whatsapp/service/PushService.java
+ edu.upc.whatsapp.service.PushService
+ edu.upc.whatsapp.service.PushService$1
+ edu.upc.whatsapp.service.PushService$2
+ edu.upc.whatsapp.service.PushService$MyBinder
+ edu.upc.whatsapp.service.PushService$MyEndPoint
+ edu.upc.whatsapp.service.PushService$MyEndPoint$1
+ edu.upc.whatsapp.service.PushService$MyTimerTask
+edu/upc/whatsapp/d_UsersListActivity.java
+ edu.upc.whatsapp.d_UsersListActivity
+ edu.upc.whatsapp.d_UsersListActivity$1
+ edu.upc.whatsapp.d_UsersListActivity$DownloadUsers_Task
+edu/upc/whatsapp/adapter/MyAdapter_users.java
+ edu.upc.whatsapp.adapter.MyAdapter_users

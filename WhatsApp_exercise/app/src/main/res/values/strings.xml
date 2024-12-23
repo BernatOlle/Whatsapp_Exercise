@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">_WhatsApp</string>
+    <string name="whatsapp_app">WhatsApp Application</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">e-mail</string>
+    <string name="login_uppercase">LOGIN</string>
+    <string name="register_uppercase">REGISTER</string>
+    <string name="the_messages">The messages:</string>
+    <string name="hint">Type text here</string>
+    <string name="send">Send</string>
+
+    <string name="content_description">Image</string>
+    <string name="the_date">the date</string>
+    <string name="the_hour">the hour</string>
+
+</resources>
